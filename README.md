@@ -42,7 +42,7 @@
 ## Как настроить / запустить
 1. Открой `config.ini` и поменяй под себя:
    - `[Bypass]` — `listen_host`/`listen_port`, куда коннектится SA-MP клиент (по умолчанию `127.0.0.1:7777`);
-   - `[BlackRussia]` — `host`/`port` реального BR-сервера (все ID серверов: https://www.blast.hk/threads/257129/);
+   - `[BlackRussia]` — `host`/`port` реального BR-сервера (все ID серверов: https://www.blast.hk/threads/258267/);
    - `[Auth]` — `password`, `auth_auto`/`reg_auto`, `email`, `referral`, `gender`, `skin`;
    - `[Relay]` — `toggle_player_controllable`, `damage_ignore` (хп всегда 100: `SetPlayerHealth`/`SetPlayerArmour` ниже 100 дропаются).
 2. Запусти `python main.py` (или `python main.py --config path/to/config.ini`). Если `config.ini` нет — стартует на дефолтах.
